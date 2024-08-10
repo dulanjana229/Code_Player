@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'lato', sans-serif;
+}
+
+li{
+    list-style: none;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 20%;
+    float: left;
+}
+a{
+    color: black;
+}
+.clear{
+    clear: both;
+}
+#logo{
+    font-weight: bold;    
+    float: left;
+    margin-left: 2rem;
+}
+
+#menuBar{
+    height: 40px;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #272525;
+    box-sizing: border-box;    
+}
+
+#buttonDiv{
+    float: right;
+    margin-right: 2rem;
+}
+
+#runButton{
+    font-size: 110%;
+}
+
+#toggleDiv{
+    height: 40px;
+    margin: auto;
+    width: 20%;
+    box-sizing: border-box;    
+    position: relative;
+    padding: 0;
+}
+
+#toggle{
+    float: left;
+    margin: 0;
+    list-style: none;
+    padding-left: 0;
+    box-sizing: border-box;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+#toggle li{
+    float: left;
+    border-right: 1px solid #d3d3d3;
+    box-sizing: border-box;
+    padding: 5px 8px 4px 7px;
+}
+
+.codeContainer{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.codeContainer textarea{
+    width: 100%;
+    height: 100vh;
+    /* border: none;
+    border-right: 2px solid #e5e5e5;
+    font-family: monospace; */
+    font-size: 90%;
+    box-sizing: border-box;
+    padding: 30px 0 5px 5px;
+}
+
+.codeLabel{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#cssContainer, #jsContainer{
+    display: none;
+}
+
+iframe{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border: none;
+    padding-top: 30px;
+}
+
+.selected{
+    background-color: #eaf3ff;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #000000;
+}

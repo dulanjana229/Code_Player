@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+  </head>
+  <body translate="no">
+    <div id="container">
+      <div id="menuBar">
+        <div id="logo">Code Player</div>
+        <div id="buttonDiv">
+          <button id="runButton">Run</button>
+        </div>
+        <div id="toggleDiv">
+          <ul>
+            <a href="#">
+              <li class="toggle selected">HTML</li>
+            </a>
+            <a href="#">
+              <li class="toggle">CSS</li>
+            </a>
+            <a href="#">
+              <li class="toggle">JS</li>
+            </a>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="clear"></div>
+      <div class="codeContainer" id="htmlContainer">
+        <div class="codeLabel">HTML</div>
+        <textarea id="htmlCode"><div id="test"></div></textarea>
+      </div>
+      <div class="codeContainer" id="cssContainer">
+        <div class="codeLabel">CSS</div>
+        <textarea id="cssCode"></textarea>
+      </div>
+      <div class="codeContainer" id="jsContainer">
+        <div class="codeLabel">JavaScript</div>
+        <textarea id="jsCode"></textarea>
+      </div>
+      <div class="codeContainer" id="outputContainer">
+        <div class="codeLabel">Output</div>
+        <iframe src="" id="resultFrame"></iframe>
+      </div>
+    </div>
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/jquery-ui/dist/jquery-ui.js"></script>
+    <script src="./node_modules/jquery-ui/dist/jquery-ui.min.js"></script>
+
+    <script id="render-js" src="./script.js"></script>
+  </body>
+</html>
